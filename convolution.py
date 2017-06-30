@@ -28,7 +28,7 @@ def fast_conv_vect(input_signal, impulse):
     # FFT를 수행하는 데 필요한 포인트의 양을 찾아 벡터화 합니다.
     length = size(impulse) + size(input_signal) - 1 # 선형 컨벌루션 길이
     next_pow = nextpow2(length)
-    # 곱셈의 IDFT가 순환 컨벌루션이기에 공통적으로 일치시키기 위해서는 N>=L을 충족해야만 합니다.
+    # 곱셈 결과의 IDFT가 순환 컨벌루션이기에 공통적으로 일치시키기 위해서는 N>=L을 충족해야만 합니다.
     # (여기서 L=N1+N2-1;N1=length(input_signal);N2=length(impulse))
     # fft(x, n)는 n개의 포인트를 가지는 FFT입니다. x가 n보다 적으면 남는 부분을 0으로 채우고, 더 많은 경우에는 잘립니다.
     spectral_m = fft(impulse, next_pow) * fft(input_signal, next_pow) # 임펄스와 입력 신호를 FFT하여 곱합니다.
