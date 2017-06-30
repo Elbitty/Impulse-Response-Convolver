@@ -17,4 +17,5 @@ BBE-192.wav
 # Usage:
 ---
  - python convolution.py input.wav BBE-44.1.wav output.wav
+ 
 파일의 형식은 WAV여야만 합니다. 
