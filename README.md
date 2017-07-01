@@ -16,6 +16,6 @@ BBE-192.wav
 
 # Usage:
 ---
- > python convolution.py input.wav BBE-44.1.wav output.wav
+ > python convolution.py --input.wav --BBE-44.1.wav --output.wav
  
 사용되는 모든 파일은 PCM 형식의 WAV여야만 합니다. 
