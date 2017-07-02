@@ -4,12 +4,12 @@ from pylab import size
 import sys
 
 source = sys.argv[1]
-impulse = sys.argv[2]
+impulsef = sys.argv[2]
 conv_output = sys.argv[3]
 
 clip_factor = 1.01 # 클리핑 방지 계수
 
-[impulse, fs_impulse, _] = wavread(impulse) # 임펄스 응답 파일
+[impulse, fs_impulse, _] = wavread(impulsef) # 임펄스 응답 파일
 [target, fs_target, _] = wavread(source) # 처리할 대상 파일
 
 if fs_impulse == fs_target: # 샘플율이 같을 경우
