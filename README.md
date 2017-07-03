@@ -1,5 +1,5 @@
-# Convolver-DSP_Impulses
-Phase transform DSP Impulses.
+# Convolver DSP Impulses
+Phase transform DSP Impulses
 ---
 
 BBE-44.1.wav
@@ -14,8 +14,8 @@ BBE-192.wav
 
 단순히 고주파 대역을 증대시키는 대신, 중~저주파 대역을 지연시켜 주파수 스펙트럼의 시간정렬(time-align)을 수행할 경우 정보량이 많아 중요한 고주파 대역이 청자에게 먼저 도착하게 되어, 라이브 사운드처럼 느껴지게 됩니다. 이는 단순히 진폭만을 조절하는 이퀄라이저나 Tone control과는 상당한 차이가 있습니다. 
 
-# Usage:
+Usage:
 ---
- > python convolution.py --input.wav --BBE-44.1.wav --output.wav
+`python convolution.py --input.wav --BBE-44.1.wav --output.wav`
  
 사용되는 모든 파일은 PCM 형식의 WAV여야만 합니다. 
