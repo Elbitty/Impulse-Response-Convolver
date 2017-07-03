@@ -3,10 +3,10 @@ Phase transform DSP Impulses.
 ---
 
 BBE-44.1.wav
- - 32Bit, 44100Hz PCM Impulse
+ - 32Bit, 44100Hz PCM Impulse, 50% applied.
  
 BBE-192.wav
- - 32Bit, 192000Hz PCM Impulse
+ - 32Bit, 192000Hz PCM Impulse, 50% applied.
  
 위상 지연 및 시간 보정 DSP 임펄스입니다.
 
