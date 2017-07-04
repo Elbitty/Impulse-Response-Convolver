@@ -9,7 +9,7 @@ When time-aligning the frequency spectrum by delaying the middle-low frequency b
 BBE-44.1.wav
  - 32Bit, 44100Hz PCM Impulse, 50% applied.
  
-BBE-192.wav
+BBE-192.wav (Recommended)
  - 32Bit, 192000Hz (Upsampled by SoX) PCM Impulse, 50% applied.
  
  ---
