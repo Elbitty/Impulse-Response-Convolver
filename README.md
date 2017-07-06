@@ -2,7 +2,7 @@
 ### Phase transform and  time correction DSP Impulses.
 In conventional audio systems (such as speakers and headphones), the high frequency band tends to be delayed as compared with the low frequency band. When we hear such sounds, although the acoustic spectrum looks like the same as the electrical input signal, but it actually sounds like the low frequency band has masked the high frequency band so the clarity and resolution have been reduced. Generally, to restore this reduced clarity and resolution, increase the high frequency band using a common equalizer or tone control according to the Equal Loudness Contour. In this case, the sound heard by the listener may sound somewhat improved, but it may cause a rough and unnatural feeling.
 
-When time-aligning the frequency spectrum by delaying the middle-low frequency band instead of merely increasing the high frequency band, due to the large amount of information, the more important high-frequency band reach to the listener first, and feels like a **live sound**. This is significantly different from the equalizer or tone control, which simply controls the amplitude.
+When time-aligning the frequency spectrum by delaying the middle-low frequency band instead of merely increasing the high frequency band, the more important high-frequency band (due to the large amount of information) reach to the listener first, and feels like a **live sound**. This is significantly different from the equalizer or tone control, which simply controls the amplitude.
 
 ---
 
