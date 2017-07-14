@@ -10,7 +10,7 @@ BBE-44.1.wav
  - 32Bit, 44100Hz PCM Impulse, 50% applied.
  
 BBE-192.wav (Recommended)
- - 32Bit, 192000Hz (Upsampled by SoX) PCM Impulse, 50% applied.
+ - 32Bit, 192000Hz (Upsampled by SoX: Passband 99.0%, Linear response(50%)) PCM Impulse, 50% applied.
  
  ---
 
